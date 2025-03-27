@@ -17,7 +17,7 @@ https://*.*.dabur/$discard
 https://*.*.kaufen/$discard
 https://*.*.ua/$discard
 https://*.*.in/$discard
-https://*.*.com/$discard
+# https://*.*.com/$discard
 https://*.*.net/$discard
 https://*.*.2000.hu/$discard
 https://*.*.FedEx/$discard
