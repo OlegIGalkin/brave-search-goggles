@@ -1,5 +1,5 @@
-! name: Index Pages
-! description: Shows results found only on the index pages of websites: .index.html or index.htm.  
+! name: Boost Results Found on Index.html Pages
+! description: Boosts results found on index.html pages of websites.  
 ! public: true  
 ! author: Kentich
 ! homepage: https://github.com/OlegIGalkin
@@ -7,4 +7,13 @@
 ! avatar: #FFD700  
 
 # Capture only index.html or index.htm pages
+/index.html|$boost=1
+/index.html|$boost=2
+/index.html|$boost=3
+/index.html|$boost=4
+/index.html|$boost=5
+/index.html|$boost=6
+/index.html|$boost=7
+/index.html|$boost=8
+/index.html|$boost=9
 /index.html|$boost=10
