@@ -13,5 +13,5 @@ http://*
 https://*  
 
 # Capture only the second-level domain, removing subdomains and paths
-^https?://[^/]+([^/.]+\.[^/]+)
+^https?://[^/]+([^.]+\.[^/]+)
 -https?://\1$ 
