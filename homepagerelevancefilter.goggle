@@ -13,7 +13,7 @@ http://*
 https://*  
 
 # Capture only the second-level domain, removing subdomains and paths
-^https?://[^/]*([^/.]+\.[^/]+) 
+^https?://[^/]+([^/.]+\.[^/]+)
 
 # Show results only from SLDs captured in the previous expression
 -https?://\1$ 
