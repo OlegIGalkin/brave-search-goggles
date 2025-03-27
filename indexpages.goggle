@@ -1,0 +1,16 @@
+! name: Index Pages
+! description: Shows results found only on the index pages of websites: .index.html or index.htm.  
+! public: true  
+! author: Kentich  
+! issues: https://github.com/OlegIGalkin
+! avatar: #FFD700  
+
+# Remove all search results by default 
+*^  
+
+# Allow all HTTP/HTTPS websites
+http://*  
+https://*  
+
+# Capture only index.html or index.htm pages
+/index.html?|
